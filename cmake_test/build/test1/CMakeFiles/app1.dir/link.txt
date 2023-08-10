@@ -1,0 +1,1 @@
+/usr/bin/c++ -rdynamic CMakeFiles/app1.dir/calc.cc.o -o ../../bin/app1   -L/home/sophia/workspace/about_c/about_data_struct/dataStruct/cmake_test/lib  -Wl,-rpath,/home/sophia/workspace/about_c/about_data_struct/dataStruct/cmake_test/lib ../../lib/libcalc.a /usr/lib/x86_64-linux-gnu/libfmt.so.8.1.1 -Wl,--as-needed 

@@ -1,0 +1,14 @@
+/home/sophia/workspace/about_c/about_data_struct/dataStruct/cmake_test/build/CMakeFiles/edit_cache.dir
+/home/sophia/workspace/about_c/about_data_struct/dataStruct/cmake_test/build/CMakeFiles/rebuild_cache.dir
+/home/sophia/workspace/about_c/about_data_struct/dataStruct/cmake_test/build/calc/CMakeFiles/calc.dir
+/home/sophia/workspace/about_c/about_data_struct/dataStruct/cmake_test/build/calc/CMakeFiles/edit_cache.dir
+/home/sophia/workspace/about_c/about_data_struct/dataStruct/cmake_test/build/calc/CMakeFiles/rebuild_cache.dir
+/home/sophia/workspace/about_c/about_data_struct/dataStruct/cmake_test/build/sort/CMakeFiles/sort.dir
+/home/sophia/workspace/about_c/about_data_struct/dataStruct/cmake_test/build/sort/CMakeFiles/edit_cache.dir
+/home/sophia/workspace/about_c/about_data_struct/dataStruct/cmake_test/build/sort/CMakeFiles/rebuild_cache.dir
+/home/sophia/workspace/about_c/about_data_struct/dataStruct/cmake_test/build/test1/CMakeFiles/app1.dir
+/home/sophia/workspace/about_c/about_data_struct/dataStruct/cmake_test/build/test1/CMakeFiles/edit_cache.dir
+/home/sophia/workspace/about_c/about_data_struct/dataStruct/cmake_test/build/test1/CMakeFiles/rebuild_cache.dir
+/home/sophia/workspace/about_c/about_data_struct/dataStruct/cmake_test/build/test2/CMakeFiles/app2.dir
+/home/sophia/workspace/about_c/about_data_struct/dataStruct/cmake_test/build/test2/CMakeFiles/edit_cache.dir
+/home/sophia/workspace/about_c/about_data_struct/dataStruct/cmake_test/build/test2/CMakeFiles/rebuild_cache.dir

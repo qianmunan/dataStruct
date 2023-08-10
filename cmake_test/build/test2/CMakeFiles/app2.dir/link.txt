@@ -1,0 +1,1 @@
+/usr/bin/c++ -rdynamic CMakeFiles/app2.dir/sort.cc.o -o ../../bin/app2   -L/home/sophia/workspace/about_c/about_data_struct/dataStruct/cmake_test/lib  -Wl,-rpath,/home/sophia/workspace/about_c/about_data_struct/dataStruct/cmake_test/lib ../../lib/libsort.a 

@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/libsort.a CMakeFiles/sort.dir/insert.cc.o CMakeFiles/sort.dir/select.cc.o
+/usr/bin/ranlib ../../lib/libsort.a
