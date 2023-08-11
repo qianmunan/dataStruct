@@ -1,0 +1,8 @@
+/home/sophia/workspace/about_c/about_data_struct/dataStruct/linear/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/sophia/workspace/about_c/about_data_struct/dataStruct/linear/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/sophia/workspace/about_c/about_data_struct/dataStruct/linear/cmake-build-debug/sequence/CMakeFiles/sequence.dir
+/home/sophia/workspace/about_c/about_data_struct/dataStruct/linear/cmake-build-debug/sequence/CMakeFiles/edit_cache.dir
+/home/sophia/workspace/about_c/about_data_struct/dataStruct/linear/cmake-build-debug/sequence/CMakeFiles/rebuild_cache.dir
+/home/sophia/workspace/about_c/about_data_struct/dataStruct/linear/cmake-build-debug/sequenceTest/CMakeFiles/sequence1.dir
+/home/sophia/workspace/about_c/about_data_struct/dataStruct/linear/cmake-build-debug/sequenceTest/CMakeFiles/edit_cache.dir
+/home/sophia/workspace/about_c/about_data_struct/dataStruct/linear/cmake-build-debug/sequenceTest/CMakeFiles/rebuild_cache.dir

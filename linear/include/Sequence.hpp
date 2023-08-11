@@ -8,7 +8,7 @@ class Sequence
     private:
         int* data; // 存储数据的数组
         int capacity; // 数组容量
-        int size;  // 当前肃卒中的元素数量
+        int size;  // 当前数组中的元素数量
 
     public:
         // 构造函数

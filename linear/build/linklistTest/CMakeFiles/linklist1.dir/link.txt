@@ -1,0 +1,1 @@
+/usr/bin/c++ -rdynamic CMakeFiles/linklist1.dir/linklist.cpp.o -o ../../bin/linklist1   -L/home/sophia/workspace/about_c/about_data_struct/dataStruct/linear/lib  -Wl,-rpath,/home/sophia/workspace/about_c/about_data_struct/dataStruct/linear/lib ../../lib/liblinklist.a 

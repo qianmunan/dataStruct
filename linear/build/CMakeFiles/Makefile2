@@ -64,18 +64,54 @@ CMAKE_BINARY_DIR = /home/sophia/workspace/about_c/about_data_struct/dataStruct/l
 
 # The main recursive "all" target.
 all: sequence/all
+all: linklist/all
 all: sequenceTest/all
+all: linklistTest/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
 preinstall: sequence/preinstall
+preinstall: linklist/preinstall
 preinstall: sequenceTest/preinstall
+preinstall: linklistTest/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: sequence/clean
+clean: linklist/clean
 clean: sequenceTest/clean
+clean: linklistTest/clean
 .PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory linklist
+
+# Recursive "all" directory target.
+linklist/all: linklist/CMakeFiles/linklist.dir/all
+.PHONY : linklist/all
+
+# Recursive "preinstall" directory target.
+linklist/preinstall:
+.PHONY : linklist/preinstall
+
+# Recursive "clean" directory target.
+linklist/clean: linklist/CMakeFiles/linklist.dir/clean
+.PHONY : linklist/clean
+
+#=============================================================================
+# Directory level rules for directory linklistTest
+
+# Recursive "all" directory target.
+linklistTest/all: linklistTest/CMakeFiles/linklist1.dir/all
+.PHONY : linklistTest/all
+
+# Recursive "preinstall" directory target.
+linklistTest/preinstall:
+.PHONY : linklistTest/preinstall
+
+# Recursive "clean" directory target.
+linklistTest/clean: linklistTest/CMakeFiles/linklist1.dir/clean
+.PHONY : linklistTest/clean
 
 #=============================================================================
 # Directory level rules for directory sequence
@@ -114,7 +150,7 @@ sequenceTest/clean: sequenceTest/CMakeFiles/sequence1.dir/clean
 sequence/CMakeFiles/sequence.dir/all:
 	$(MAKE) $(MAKESILENT) -f sequence/CMakeFiles/sequence.dir/build.make sequence/CMakeFiles/sequence.dir/depend
 	$(MAKE) $(MAKESILENT) -f sequence/CMakeFiles/sequence.dir/build.make sequence/CMakeFiles/sequence.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sophia/workspace/about_c/about_data_struct/dataStruct/linear/build/CMakeFiles --progress-num=1,2 "Built target sequence"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sophia/workspace/about_c/about_data_struct/dataStruct/linear/build/CMakeFiles --progress-num=5,6 "Built target sequence"
 .PHONY : sequence/CMakeFiles/sequence.dir/all
 
 # Build rule for subdir invocation for target.
@@ -134,13 +170,39 @@ sequence/CMakeFiles/sequence.dir/clean:
 .PHONY : sequence/CMakeFiles/sequence.dir/clean
 
 #=============================================================================
+# Target rules for target linklist/CMakeFiles/linklist.dir
+
+# All Build rule for target.
+linklist/CMakeFiles/linklist.dir/all:
+	$(MAKE) $(MAKESILENT) -f linklist/CMakeFiles/linklist.dir/build.make linklist/CMakeFiles/linklist.dir/depend
+	$(MAKE) $(MAKESILENT) -f linklist/CMakeFiles/linklist.dir/build.make linklist/CMakeFiles/linklist.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sophia/workspace/about_c/about_data_struct/dataStruct/linear/build/CMakeFiles --progress-num=1,2 "Built target linklist"
+.PHONY : linklist/CMakeFiles/linklist.dir/all
+
+# Build rule for subdir invocation for target.
+linklist/CMakeFiles/linklist.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sophia/workspace/about_c/about_data_struct/dataStruct/linear/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 linklist/CMakeFiles/linklist.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sophia/workspace/about_c/about_data_struct/dataStruct/linear/build/CMakeFiles 0
+.PHONY : linklist/CMakeFiles/linklist.dir/rule
+
+# Convenience name for target.
+linklist: linklist/CMakeFiles/linklist.dir/rule
+.PHONY : linklist
+
+# clean rule for target.
+linklist/CMakeFiles/linklist.dir/clean:
+	$(MAKE) $(MAKESILENT) -f linklist/CMakeFiles/linklist.dir/build.make linklist/CMakeFiles/linklist.dir/clean
+.PHONY : linklist/CMakeFiles/linklist.dir/clean
+
+#=============================================================================
 # Target rules for target sequenceTest/CMakeFiles/sequence1.dir
 
 # All Build rule for target.
 sequenceTest/CMakeFiles/sequence1.dir/all: sequence/CMakeFiles/sequence.dir/all
 	$(MAKE) $(MAKESILENT) -f sequenceTest/CMakeFiles/sequence1.dir/build.make sequenceTest/CMakeFiles/sequence1.dir/depend
 	$(MAKE) $(MAKESILENT) -f sequenceTest/CMakeFiles/sequence1.dir/build.make sequenceTest/CMakeFiles/sequence1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sophia/workspace/about_c/about_data_struct/dataStruct/linear/build/CMakeFiles --progress-num=3,4 "Built target sequence1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sophia/workspace/about_c/about_data_struct/dataStruct/linear/build/CMakeFiles --progress-num=7,8 "Built target sequence1"
 .PHONY : sequenceTest/CMakeFiles/sequence1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -158,6 +220,32 @@ sequence1: sequenceTest/CMakeFiles/sequence1.dir/rule
 sequenceTest/CMakeFiles/sequence1.dir/clean:
 	$(MAKE) $(MAKESILENT) -f sequenceTest/CMakeFiles/sequence1.dir/build.make sequenceTest/CMakeFiles/sequence1.dir/clean
 .PHONY : sequenceTest/CMakeFiles/sequence1.dir/clean
+
+#=============================================================================
+# Target rules for target linklistTest/CMakeFiles/linklist1.dir
+
+# All Build rule for target.
+linklistTest/CMakeFiles/linklist1.dir/all: linklist/CMakeFiles/linklist.dir/all
+	$(MAKE) $(MAKESILENT) -f linklistTest/CMakeFiles/linklist1.dir/build.make linklistTest/CMakeFiles/linklist1.dir/depend
+	$(MAKE) $(MAKESILENT) -f linklistTest/CMakeFiles/linklist1.dir/build.make linklistTest/CMakeFiles/linklist1.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sophia/workspace/about_c/about_data_struct/dataStruct/linear/build/CMakeFiles --progress-num=3,4 "Built target linklist1"
+.PHONY : linklistTest/CMakeFiles/linklist1.dir/all
+
+# Build rule for subdir invocation for target.
+linklistTest/CMakeFiles/linklist1.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sophia/workspace/about_c/about_data_struct/dataStruct/linear/build/CMakeFiles 4
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 linklistTest/CMakeFiles/linklist1.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sophia/workspace/about_c/about_data_struct/dataStruct/linear/build/CMakeFiles 0
+.PHONY : linklistTest/CMakeFiles/linklist1.dir/rule
+
+# Convenience name for target.
+linklist1: linklistTest/CMakeFiles/linklist1.dir/rule
+.PHONY : linklist1
+
+# clean rule for target.
+linklistTest/CMakeFiles/linklist1.dir/clean:
+	$(MAKE) $(MAKESILENT) -f linklistTest/CMakeFiles/linklist1.dir/build.make linklistTest/CMakeFiles/linklist1.dir/clean
+.PHONY : linklistTest/CMakeFiles/linklist1.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

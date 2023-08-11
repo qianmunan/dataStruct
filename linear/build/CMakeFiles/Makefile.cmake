@@ -11,6 +11,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.22.1/CMakeCCompiler.cmake"
   "CMakeFiles/3.22.1/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.22.1/CMakeSystem.cmake"
+  "../linklist/CMakeLists.txt"
+  "../linklistTest/CMakeLists.txt"
   "../sequence/CMakeLists.txt"
   "../sequenceTest/CMakeLists.txt"
   "/usr/share/cmake-3.22/Modules/CMakeCInformation.cmake"
@@ -42,11 +44,15 @@ set(CMAKE_MAKEFILE_OUTPUTS
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "sequence/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "linklist/CMakeFiles/CMakeDirectoryInformation.cmake"
   "sequenceTest/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "linklistTest/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "sequence/CMakeFiles/sequence.dir/DependInfo.cmake"
+  "linklist/CMakeFiles/linklist.dir/DependInfo.cmake"
   "sequenceTest/CMakeFiles/sequence1.dir/DependInfo.cmake"
+  "linklistTest/CMakeFiles/linklist1.dir/DependInfo.cmake"
   )

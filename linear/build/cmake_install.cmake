@@ -45,7 +45,9 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/sophia/workspace/about_c/about_data_struct/dataStruct/linear/build/sequence/cmake_install.cmake")
+  include("/home/sophia/workspace/about_c/about_data_struct/dataStruct/linear/build/linklist/cmake_install.cmake")
   include("/home/sophia/workspace/about_c/about_data_struct/dataStruct/linear/build/sequenceTest/cmake_install.cmake")
+  include("/home/sophia/workspace/about_c/about_data_struct/dataStruct/linear/build/linklistTest/cmake_install.cmake")
 
 endif()
 

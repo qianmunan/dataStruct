@@ -3,6 +3,12 @@
 /home/sophia/workspace/about_c/about_data_struct/dataStruct/linear/build/sequence/CMakeFiles/sequence.dir
 /home/sophia/workspace/about_c/about_data_struct/dataStruct/linear/build/sequence/CMakeFiles/edit_cache.dir
 /home/sophia/workspace/about_c/about_data_struct/dataStruct/linear/build/sequence/CMakeFiles/rebuild_cache.dir
+/home/sophia/workspace/about_c/about_data_struct/dataStruct/linear/build/linklist/CMakeFiles/linklist.dir
+/home/sophia/workspace/about_c/about_data_struct/dataStruct/linear/build/linklist/CMakeFiles/edit_cache.dir
+/home/sophia/workspace/about_c/about_data_struct/dataStruct/linear/build/linklist/CMakeFiles/rebuild_cache.dir
 /home/sophia/workspace/about_c/about_data_struct/dataStruct/linear/build/sequenceTest/CMakeFiles/sequence1.dir
 /home/sophia/workspace/about_c/about_data_struct/dataStruct/linear/build/sequenceTest/CMakeFiles/edit_cache.dir
 /home/sophia/workspace/about_c/about_data_struct/dataStruct/linear/build/sequenceTest/CMakeFiles/rebuild_cache.dir
+/home/sophia/workspace/about_c/about_data_struct/dataStruct/linear/build/linklistTest/CMakeFiles/linklist1.dir
+/home/sophia/workspace/about_c/about_data_struct/dataStruct/linear/build/linklistTest/CMakeFiles/edit_cache.dir
+/home/sophia/workspace/about_c/about_data_struct/dataStruct/linear/build/linklistTest/CMakeFiles/rebuild_cache.dir

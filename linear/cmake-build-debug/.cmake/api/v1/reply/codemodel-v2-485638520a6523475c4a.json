@@ -1,0 +1,123 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "sequence",
+					"jsonFile" : "directory-sequence-Debug-eec4c0c6126b5e76bf13.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "sequence",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "sequenceTest",
+					"jsonFile" : "directory-sequenceTest-Debug-fcc5738efc1ea81dc10e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "sequenceTest",
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "linear"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "SEQUENCELIB",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "sequenceTest",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "sequence::@131a1a8a7d6c6534acf5",
+					"jsonFile" : "target-sequence-Debug-8374cbd394a213f5ba0c.json",
+					"name" : "sequence",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "sequence1::@eeb4ce91371f7cccbc38",
+					"jsonFile" : "target-sequence1-Debug-a8f2cf783fd38d2458ab.json",
+					"name" : "sequence1",
+					"projectIndex" : 2
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/sophia/workspace/about_c/about_data_struct/dataStruct/linear/cmake-build-debug",
+		"source" : "/home/sophia/workspace/about_c/about_data_struct/dataStruct/linear"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

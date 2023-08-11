@@ -1,0 +1,11 @@
+/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/usr/bin/ninja -DCMAKE_C_COMPILER=/usr/bin/clang -DCMAKE_CXX_COMPILER=/usr/bin/clang++ -G Ninja -S /home/sophia/workspace/about_c/about_data_struct/dataStruct/linear -B /home/sophia/workspace/about_c/about_data_struct/dataStruct/linear/cmake-build-debug
+CMake Error at CMakeLists.txt:31 (add_subdirectory):
+  The source directory
+
+    /home/sophia/workspace/about_c/about_data_struct/dataStruct/linear/linklist
+
+  does not contain a CMakeLists.txt file.
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/sophia/workspace/about_c/about_data_struct/dataStruct/linear/cmake-build-debug/CMakeFiles/CMakeOutput.log".
