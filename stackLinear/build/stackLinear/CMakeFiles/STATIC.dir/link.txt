@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/libSTATIC.a CMakeFiles/STATIC.dir/stackLinear.cpp.o
+/usr/bin/ranlib ../../lib/libSTATIC.a
